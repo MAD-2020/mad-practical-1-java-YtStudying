@@ -6,8 +6,10 @@ public class Question3
   {
     Scanner in = new Scanner(System.in);
     System.out.println("Please enter an integer: ");
-    int num = in.nextInt()
+
+    int num = in.nextInt();
     int product = num * num;
+    
     System.out.println("Result: " + product);
   }
 }
